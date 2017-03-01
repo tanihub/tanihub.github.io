@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>TaniHub</title>
+    <link rel="stylesheet" href="css/style2.css">
+
+    <style>
+        #overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            filter: alpha(opacity=50);
+            -moz-opacity: 0.5;
+            -khtml-opacity: 0.5;
+            opacity: 0.5;
+            z-index: 10000;
+            display: block;
+        }
+
+        .preloader {
+            position: absolute;
+            top: 45%;
+            left: 45%;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section main>
+        <div class="center-wrapper text-center">
+            <p class="tac m0">
+                <a href="/"><img src="img/logo-tanihub.svg" alt=""></a>
+            </p>
+            <p class="font-huge-green">
+                Server Maintenance
+            </p>
+
+            <h2>
+                Mohon Maaf, server sedang dalam perbaikan
+            </h2>
+        </div>
+    </section>
+
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-68420027-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+</body>
+
+</html>
